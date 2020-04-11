@@ -199,7 +199,8 @@ div.item-3HknzM.da-item.item-PXvHYJ,
 .wrapper-3WhCwL,
 .channelTextArea-rNsIhG,
 .theme-dark .focused-2bY0OD,
-.theme-dark .row-rrHHJU.selected-1pIgLL {
+.theme-dark .row-rrHHJU.selected-1pIgLL,
+.scroller-305q3I {
    background: transparent !important;
 }
 .message-2qnXI6.selected-2P5D_Z, .mouse-mode.full-motion .message-2qnXI6:hover {
@@ -355,12 +356,14 @@ div.numberBadge-2s8kKX.base-PmTxvP.da-numberBadge.da-base,
 }
 .guilds-1SWlCJ,
 .attachWrapper-2TRKBi,
+.scroller-305q3I,
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG {
     border-right: 1px solid var(--Color6) !important;
 }
 .ace-monokai .ace_gutter,
 #bda-qem button,
-.headerCell-3L6rFG {
+.headerCell-3L6rFG,
+.scroller-305q3I {
     border-left: 1px solid var(--Color6) !important;
 }
 .theme-dark .uploadModal-2ifh8j,
