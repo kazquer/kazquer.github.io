@@ -265,7 +265,8 @@ div.item-3HknzM.da-item.item-PXvHYJ,
 div.container-2VW0UT.elevationHigh-1PneE4.da-container.da-elevationHigh,
 .theme-dark .message-2qRu38,
 .theme-dark .container-VSDcQc .sectionTag-pXyto9,
-.theme-dark .uploadModal-2ifh8j, .scrollableContainer-2NUZem {
+.theme-dark .uploadModal-2ifh8j, .scrollableContainer-2NUZem,
+.theme-dark .card-FDVird:before {
     background-color: var(--Color1) !important;
 }
 
@@ -363,7 +364,8 @@ div.numberBadge-2s8kKX.base-PmTxvP.da-numberBadge.da-base,
     border-left: 1px solid var(--Color6) !important;
 }
 .theme-dark .uploadModal-2ifh8j,
-.scrollableContainer-2NUZem {
+.scrollableContainer-2NUZem,
+.theme-dark .card-FDVird:before{
     border: 1px solid var(--Color6) !important;
 }
 .searchResult-3pzFAB{
