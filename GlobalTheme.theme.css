@@ -198,8 +198,9 @@ div.item-3HknzM.da-item.item-PXvHYJ,
 .theme-dark .footer-3mqk7D,
 .wrapper-3WhCwL,
 .channelTextArea-rNsIhG,
-.theme-dark .focused-2bY0OD {
-    background: transparent !important;
+.theme-dark .focused-2bY0OD,
+.theme-dark .row-rrHHJU.selected-1pIgLL {
+   background: transparent !important;
 }
 .message-2qnXI6.selected-2P5D_Z, .mouse-mode.full-motion .message-2qnXI6:hover {
    background: transparent; 
@@ -263,6 +264,7 @@ div.item-3HknzM.da-item.item-PXvHYJ,
 .theme-dark .dim-1l4L4y span,
 div.container-2VW0UT.elevationHigh-1PneE4.da-container.da-elevationHigh,
 .theme-dark .message-2qRu38,
+.theme-dark .container-VSDcQc .sectionTag-pXyto9,
 .theme-dark .uploadModal-2ifh8j, .scrollableContainer-2NUZem {
     background-color: var(--Color1) !important;
 }
@@ -283,6 +285,7 @@ div.backdrop-1wrmKB.da-backdrop,
 .jumpToPresentBar-9P20AM,
 .theme-dark .root-1gCeng,
 .theme-dark .uploadModal-2ifh8j,
+.theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .header-2bNvm4,
 .bd-switch {
     background-color: var(--Color2) !important;
 }
@@ -330,7 +333,8 @@ div.numberBadge-2s8kKX.base-PmTxvP.da-numberBadge.da-base,
 .bd-switch,
 .bd-switch::after,
 .theme-dark .elevationHigh-1PneE4,
-.theme-dark .message-2qRu38 {
+.theme-dark .message-2qRu38,
+.theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .autocompleteShadow-iiGWFU {
     box-shadow: 0 0 0.1rem 0.1rem var(--Color4) !important;;
 }
 
@@ -416,7 +420,8 @@ div.item-3HknzM.da-item.item-PXvHYJ:hover,
 .centerButton-3CaNcJ:hover,
 .cancelButton-2O3h8t:hover,
 .bd-addon-list .bd-card-footer button:hover
-.bd-pfbtn:hover {
+.bd-pfbtn:hover,
+.theme-dark .row-rrHHJU.selected-1pIgLL {
     background-color: var(--Color8) !important;
 }
 .attachButton-2WznTc:hover .attachButtonPlus-jWVFah {
@@ -664,7 +669,7 @@ foreignobject {
         1% {  box-shadow:none; }
         100% { border-radius:0%;
             box-shadow:none;
-            padding-left: calc(var(--ChatImageSize) * 1.5);
+            padding-left: calc(var(--ChatImageSize) * 1.5);;
             width: calc(var(--ChatImageSize) * 3);
             height: calc(var(--ChatImageSize) * 3); }
 }
