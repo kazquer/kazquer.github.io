@@ -1,3 +1,8 @@
+ * @description  Adjust Settings With Custom CSS. Transparency Must Be On To Work Properly. Full instructions found on the website.
+ * @author       kasquer
+ * @version      1 |
+ * @website      https://kazquer.github.io/
+
 /*Background Image*/
 .app {
     background-size: cover !important;
