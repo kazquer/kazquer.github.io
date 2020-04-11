@@ -1,3 +1,30 @@
+:root {
+  --Font: "Eras Demi ITC";
+  --ChatImage: 1; /*Opacity Of Chat Image*/
+  --ChatImageSize: 3rem; /*Size of Image On Main Chat*/
+  --ProfileImageSize: 15rem; /*Profile Image Size*/
+  --ImageEdgeCutting: 25%; /*Smooths Corners of Most Images*/
+  --EmojiSize: 3rem; /*Size of Emotes*/
+  --Color1: rgba(0, 0, 5, 0.5);/*Overall Background*/
+  --Color2: rgba(0, 0, 5, 0.8);/*Hard Background Or Highlight*/
+  --Color3: rgba(80, 120, 255, 0.7);/*Notifications*/
+  --Color4: rgba(50, 50, 50, 0.4);/*Shadows*/
+  --Color5: rgba(0, 0, 20, 0.5); /*Text Shadow*/
+  --Color6: rgba(30, 30, 60, 0.5);/*Borders*/ 
+  --Color7: rgba(35, 35, 35, 0.4);/*Button*/
+  --Color8: rgba(80, 80, 80, 0.6);/*Button Hover*/
+  --Color9: rgba(50, 60, 100, 0.3);/*Scroller*/
+  --Color10: rgba(250, 100, 100, 1);/*Links & @Mentions*/
+  --Color11: rgba(255, 50, 50, 0.7);/*Warning Font Color*/
+  --Color12: rgba(200, 255, 120, 1);/*Username Color When Not Specified By Role*/
+  --Color13: rgba(255, 255, 255, 0.9);/*Primary Font Color*/
+  --Color14: rgba(200, 200, 200, 0.6);/*Secondary Font Color*/
+  --Color15: rgba(0, 0, 15, 0.6);/*Selected Item Font Color*/
+  --Color16: rgba(80, 80, 150, 0.6); /*Checkboxes - ON Color/*/
+  --Icons: rgba(150, 150, 250, 0.8);/*Icon Colors*/  
+  --BackgroundImage: url("");
+}
+
 /*Background Image*/
 .app {
     background-size: cover !important;
