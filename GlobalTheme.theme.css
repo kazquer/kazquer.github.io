@@ -267,7 +267,11 @@ div.container-2VW0UT.elevationHigh-1PneE4.da-container.da-elevationHigh,
 .theme-dark .message-2qRu38,
 .theme-dark .container-VSDcQc .sectionTag-pXyto9,
 .theme-dark .uploadModal-2ifh8j, .scrollableContainer-2NUZem,
-.theme-dark .card-FDVird:before {
+.theme-dark .card-FDVird:before,
+.bd-modal-wrapper .bd-modal-body,
+.bd-modal-wrapper .header,
+.theme-dark .footer-3rDWdC,
+.theme-light .action-1lSjCi {
     background-color: var(--Color1) !important;
 }
 
@@ -368,7 +372,8 @@ div.numberBadge-2s8kKX.base-PmTxvP.da-numberBadge.da-base,
 }
 .theme-dark .uploadModal-2ifh8j,
 .scrollableContainer-2NUZem,
-.theme-dark .card-FDVird:before{
+.theme-dark .card-FDVird:before,
+.bd-modal-wrapper .bd-modal-inner {
     border: 1px solid var(--Color6) !important;
 }
 .searchResult-3pzFAB{
@@ -403,7 +408,8 @@ button.btn.btn-primary {
 .centerButton-3CaNcJ,
 .cancelButton-2O3h8t,
 .bd-addon-list .bd-card-footer button,
-.bd-pfbtn {
+.bd-pfbtn,
+.bd-modal-wrapper .footer button {
     background-color: var(--Color7) !important;
 }
 
@@ -426,7 +432,8 @@ div.item-3HknzM.da-item.item-PXvHYJ:hover,
 .cancelButton-2O3h8t:hover,
 .bd-addon-list .bd-card-footer button:hover
 .bd-pfbtn:hover,
-.theme-dark .row-rrHHJU.selected-1pIgLL {
+.theme-dark .row-rrHHJU.selected-1pIgLL,
+.bd-modal-wrapper .footer button:hover {
     background-color: var(--Color8) !important;
 }
 .attachButton-2WznTc:hover .attachButtonPlus-jWVFah {
@@ -447,7 +454,8 @@ div.item-3HknzM.da-item.item-PXvHYJ:hover,
 .markup-2BOw-j a,
 .theme-dark .mentioned-xhSam7 .mention, .theme-light .mentioned-xhSam7 .mention,
 .wrapper-3WhCwL,
-.wrapper-3WhCwL:hover {
+.wrapper-3WhCwL:hover,
+a {
     color: var(--Color10);
 }
 
@@ -512,7 +520,8 @@ div.item-3HknzM.da-item.item-PXvHYJ:hover,
 .cancelButton-2O3h8t,
 .bd-pfbtn,
 .bd-search,
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected,
+.header-3ZP1MY {
     color: var(--Color13);
 }
 /*Color 13 B_Color*/
