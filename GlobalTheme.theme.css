@@ -420,7 +420,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 .lookInverted-2D7oAl.colorBrand-3pXr91,
 .lookInverted-2D7oAl.colorGreen-29iAKY,
-.bd-button {
+.bd-button,
+.actionButton-uPB8Fs {
     background-color: var(--Color7) !important;
 }
 
@@ -442,7 +443,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6:hover,
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover,
-.bd-button:hover {
+.bd-button:hover,
+.actionButton-uPB8Fs:hover {
     background-color: var(--Color8) !important;
 }
 
