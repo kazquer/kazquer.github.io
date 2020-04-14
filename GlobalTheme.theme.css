@@ -7,6 +7,8 @@
   --ProfileImageSize: 15rem; /*Profile Image Size*/
   --ImageEdgeCutting: 25%; /*Smooths Corners of Most Images*/
   --EmojiSize: 3rem; /*Size of Emotes - Only When Text Is Not Present*/
+  --EmojiTextSize: 2rem; /*Size of Emotes When With Text*/
+  --EmojiTextAli: top; /*Placements Of Text Next Emote (use e.g: "Top" | "Middle" | "Bottom" | +/- Pixels*/
   --Color1: rgba(0, 0, 5, 0.5);/*Primary Background*/
   --Color2: rgba(0, 0, 5, 0.7);/*Hard Background and Highlights*/
   --Color3: rgba(50, 50, 255, 0.7);/*Notifications*/
@@ -86,6 +88,23 @@
     --deprecated-text-input-border-hover: transparent;
     --deprecated-text-input-border-disabled: transparent;
     --deprecated-text-input-prefix: transparent;
+}
+
+/*Emoji Settings*/
+.emoji {
+    width: var(--EmojiTextSize);
+    height: var(--EmojiTextSize);
+    vertical-align: var(--EmojiTextAli);
+}
+.emoji.jumboable{
+    width: var(--EmojiSize);
+    height: var(--EmojiSize);
+    min-height: var(--EmojiSize);
+}
+.emoji-2cWBLE, .icon-15YQ1T {
+    max-width: 1.5rem;
+    max-height: 1.5rem;
+    vertical-align: middle;
 }
 
 /*Font & Shadow*/
