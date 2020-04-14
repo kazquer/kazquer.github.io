@@ -3,7 +3,7 @@
 ### __Customizable Discord Theme__
 
 #### How to use:
-* Set discord appearance to Dark and Cozy.
+* Set discord appearance to Dark.
 * [Install Better Discord](https://betterdiscord.net/home/).
 * Turn on transparency in BTD settings. 
 > Transparency might get stuck being off when you install it. If after installing theme you can't get it to be transparent full restart discord from task bar with the setting *off* and after it starts turn the setting *on* followed by another full restart.
