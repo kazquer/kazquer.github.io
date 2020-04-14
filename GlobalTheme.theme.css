@@ -11,7 +11,7 @@
   --Color2: rgba(0, 0, 5, 0.7);/*Hard Background and Highlights*/
   --Color3: rgba(50, 50, 255, 0.7);/*Notifications*/
   --Color4: rgba(50, 50, 50, 0.4);/*Shadows*/
-  --Color5: rgba(0, 0, 20, 0.5); /*Text Shadow (Main Chat)*/
+  --Color5: rgba(0, 0, 20, 1); /*Text Shadow (Main Chat)*/
   --Color6: rgba(30, 30, 60, 0.5);/*Borders*/ 
   --Color7: rgba(35, 35, 35, 0.4);/*Button*/
   --Color8: rgba(20, 20, 20, 0.4);/*Button Hover*/
@@ -88,7 +88,7 @@
     --deprecated-text-input-prefix: transparent;
 }
 
-/*Font*/
+/*Font & Shadow*/
 a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, td, tfoot, th, thead, tr, tt, ul, var, samp, small, strike, strong, table, tbody,
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button,
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6,
@@ -113,6 +113,10 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .lookInverted-2D7oAl.colorGreen-29iAKY, 
 #bda-qem button {
     font-family: var(--Font) !important;
+    text-shadow: 1px 1px 1px var(--Color5),
+    -1px 1px 1px var(--Color5),
+    1px -1px 1px var(--Color5),
+    -1px -1px 1px var(--Color5);
 }
 
 /*Icons*/
@@ -270,6 +274,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .uploadArea-3QgLtW,
 .theme-dark .notDetected-33MY4s, .theme-light .notDetected-33MY4s,
 #bda-qem button,
+.embedFull-2tM8--,
 .theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .autocompleteShadow-iiGWFU,
 .bd-select .bd-select-options,
 .theme-dark .codeRedemptionRedirect-1wVR4b,
@@ -318,13 +323,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     box-shadow: 0 0 0.2rem 0.2rem var(--Color4) !important;
 } 
 
-/*Color 5*/
-.cozy-3raOZG .messageContent-2qWWxC {
-    text-shadow: 1px 1px 1px var(--Color5),
-    -1px 1px 1px var(--Color5),
-    1px -1px 1px var(--Color5),
-    -1px -1px 1px var(--Color5);
-}
+/*Color 5 - Used Along Font On Top*/
 
 /*Color 6*/
 .theme-dark .row-rrHHJU.selected-1pIgLL,
