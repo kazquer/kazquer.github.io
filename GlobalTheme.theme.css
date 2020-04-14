@@ -11,7 +11,7 @@
   --Color2: rgba(0, 0, 5, 0.7);/*Hard Background and Highlights*/
   --Color3: rgba(50, 50, 255, 0.7);/*Notifications*/
   --Color4: rgba(50, 50, 50, 0.4);/*Shadows*/
-  --Color5: rgba(0, 0, 20, 1); /*Text Shadow (Main Chat)*/
+  --Color5: rgba(0, 0, 20, 0.2); /*Text Shadow*/
   --Color6: rgba(30, 30, 60, 0.5);/*Borders*/ 
   --Color7: rgba(35, 35, 35, 0.4);/*Button*/
   --Color8: rgba(20, 20, 20, 0.4);/*Button Hover*/
@@ -337,11 +337,13 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .guilds-1SWlCJ,
 .container-PNkimc,
 .scroller-1JbKMe,
+.btn.btn-primary,
 #bda-qem button {
     border-right: 1px solid var(--Color6) !important;
 }
 .members-1998pB,
 .searchResultsWrap-2DKFzt,
+.btn.btn-primary,
 .nowPlayingScroller-2XrVUt,
 #bda-qem button {
     border-left: 1px solid var(--Color6) !important;
@@ -424,7 +426,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 
 /*Color 8*/
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
-.standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button:hover,
+.standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor:hover #bd-customcss-attach-controls button:hover,
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover,
 .lookFilled-1Gx00P.colorGreen-29iAKY:hover,
 .theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6:hover,
