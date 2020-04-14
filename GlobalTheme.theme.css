@@ -378,6 +378,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .row-rrHHJU.selected-1pIgLL,
 .css-181m2lf-menu,
 .activity-11LB_k,
+.unread-1xRYoj,
 .container-1r6BKw.themed-ANHk51,
 .theme-dark .inviteSettingsInviteRow-3p2O-N,
 .theme-dark .button-2CgfFz,
@@ -442,7 +443,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .lookInverted-2D7oAl.colorBrand-3pXr91,
 .lookInverted-2D7oAl.colorGreen-29iAKY,
 .bd-button,
-.actionButton-uPB8Fs {
+.actionButton-uPB8Fs,
+.unread-1xRYoj {
     background-color: var(--Color7) !important;
 }
 
@@ -465,7 +467,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover,
 .bd-button:hover,
-.actionButton-uPB8Fs:hover {
+.actionButton-uPB8Fs:hover,
+.unread-1xRYoj:hover {
     background-color: var(--Color8) !important;
 }
 
@@ -521,6 +524,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .tierHeaderLocked-1a2opw,
 .bd-addon-list .bd-card-footer button,
 .bd-search,
+.bar-30k2ka,
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .base-PmTxvP,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
@@ -550,6 +554,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .tierBody-x9kBBp,
 .lookGhost-2Fn_0-.colorBrand-3pXr91,
 #bd-pub-button,
+.bar-30k2ka:hover,
 .bd-button:hover,
 .item-3HknzM.da-item.item-PXvHYJ.da-item:hover,
 .bd-select,
