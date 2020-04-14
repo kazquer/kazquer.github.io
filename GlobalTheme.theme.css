@@ -7,7 +7,7 @@
   --ProfileImageSize: 15rem; /*Profile Image Size*/
   --ImageEdgeCutting: 25%; /*Smooths Corners of Most Images*/
   --EmojiSize: 3rem; /*Size of Emotes - Only When Text Is Not Present*/
-  --EmojiTextSize: 2rem; /*Size of Emotes When With Text*/
+  --EmojiTextSize: 1.6rem; /*Size of Emotes When With Text*/
   --EmojiTextAli: top; /*Placements Of Text Next Emote (use e.g: "Top" | "Middle" | "Bottom" | +/- Pixels*/
   --Color1: rgba(0, 0, 5, 0.5);/*Primary Background*/
   --Color2: rgba(0, 0, 5, 0.7);/*Hard Background and Highlights*/
