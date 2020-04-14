@@ -108,6 +108,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .lookGhost-2Fn_0-.colorBrand-3pXr91,
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
 .lookGhost-2Fn_0-.colorGrey-2DXtkV, 
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 .lookInverted-2D7oAl.colorGreen-29iAKY, 
@@ -240,6 +241,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .container-2XeR5Z,
 .theme-dark .message-2qRu38,
 .preview-2nSL_2,
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
 .activityPanel-28dQGo {
     background-color: var(--Color1) !important;
 }
@@ -509,7 +511,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .container-VSDcQc .input-1ppKdn,
 .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected,
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item {
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item,
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
     color: var(--Color13) !important;
 }
 /*Color 13_FILL*/
