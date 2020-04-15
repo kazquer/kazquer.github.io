@@ -186,6 +186,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 #bda-qem,
 #bda-qem button,
 .theme-dark .inset-3sAvek,
+.theme-dark #bd-settings-sidebar .ui-tab-bar-separator,
 .topSectionPlaying-1J5E4n,
 .theme-dark .row-rrHHJU.selected-1pIgLL,
 .theme-dark .headerNormal-T_seeN,
@@ -355,7 +356,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .container-1r6BKw.themed-ANHk51,
 .theme-dark .inviteSettingsInviteRow-3p2O-N,
 .theme-dark .button-2CgfFz,
-.theme-dark .container-1nZlH6 {
+.theme-dark .container-1nZlH6,
+.theme-dark #bd-settings-sidebar .ui-tab-bar-separator {
     border-bottom: 1px solid var(--Color6) !important;
 }
 .messageGroupWrapper-o-Zw7G,
@@ -422,7 +424,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .actionButton-uPB8Fs,
 .folder-21wGz3,
 .folderIconWrapper-226oVY.da-folderIconWrapper,
-.theme-dark .watchButton-2SbJEo {
+.theme-dark .watchButton-2SbJEo,
+.standardSidebarView-3F1I7i #editor-detached button {
     background-color: var(--Color7) !important;
 }
 
@@ -448,7 +451,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .actionButton-uPB8Fs:hover,
 .folder-21wGz3:hover,
 .folderIconWrapper-226oVY.da-folderIconWrapper:hover,
-.theme-dark .watchButton-2SbJEo:hover {
+.theme-dark .watchButton-2SbJEo:hover,
+.standardSidebarView-3F1I7i #editor-detached button:hover {
     background-color: var(--Color8) !important;
 }
 
@@ -509,6 +513,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .bar-30k2ka,
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .base-PmTxvP,
+.standardSidebarView-3F1I7i #editor-detached h3,
 .modeSelected-1zApJ_ .name-3_Dsmg,
 .modeUnread-1zpFdA .name-3_Dsmg,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
@@ -519,7 +524,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected,
 .theme-dark .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item,
-.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse {
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
+.standardSidebarView-3F1I7i #editor-detached button {
     color: var(--Color13) !important;
 }
 /*Color 13_FILL*/
@@ -528,7 +534,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 
 /*Color 14*/
-::placeholder, body, button, input, select, textarea,
 .name-uJV0GL:active,
 .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6,
 .ace-monokai .ace_gutter,
