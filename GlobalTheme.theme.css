@@ -91,6 +91,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .container-VSDcQc .input-1ppKdn,
 .input-3Xdcic,
 .bd-button,
+::placeholder, body, button, input, select, textarea,
 .addFriendInput-4bcerK,
 .note-3kmerW textarea,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
@@ -381,7 +382,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .auditLog-3jNbM6,
 .theme-dark .card-FDVird:before,
 .container-cMG81i,
-.note-3kmerW textarea,
+.note-QfFU8y textarea,
 .expandedFolderBackground-2sPsd-,
 .section-2gLsgF,
 .theme-dark .attachment-33OFj0,
@@ -523,6 +524,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 
 /*Color 14*/
+::placeholder, body, button, input, select, textarea,
 .name-uJV0GL:active,
 .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6,
 .ace-monokai .ace_gutter,
