@@ -304,6 +304,11 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .numberBadge-2s8kKX.base-PmTxvP.da-numberBadge.da-base {
     background-color: var(--Color3) !important;
 }
+/*New Unread Other Channel*/
+.unread-1xRYoj {
+    background-color: var(--Color3) !important;
+    opacity: 0.8;
+}
 
 /*Color 4*/
 .title-3qD0b-,
@@ -413,8 +418,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .lookInverted-2D7oAl.colorBrand-3pXr91,
 .lookInverted-2D7oAl.colorGreen-29iAKY,
 .bd-button,
-.actionButton-uPB8Fs,
-.unread-1xRYoj {
+.actionButton-uPB8Fs {
     background-color: var(--Color7) !important;
 }
 
@@ -437,8 +441,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
 .lookInverted-2D7oAl.colorGreen-29iAKY:hover,
 .bd-button:hover,
-.actionButton-uPB8Fs:hover,
-.unread-1xRYoj:hover {
+.actionButton-uPB8Fs:hover {
     background-color: var(--Color8) !important;
 }
 
@@ -457,7 +460,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 
 /*Color 11*/
 .itemBase-tz5SeC.danger-2dXSTE, .itemBase-tz5SeC.danger-2dXSTE:hover,
-.lookOutlined-3sRXeN.colorRed-1TFJan {
+.lookOutlined-3sRXeN.colorRed-1TFJan,
+.item-1GzJrl.leave-1DRJfn {
     color: var(--Color11);   
 }
 /*Color 11_Background*/
@@ -482,6 +486,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .barButtonBase-3UKlW2,
 #bda-qem button,
 .unreadPill-2HyYtt,
+.modeMuted-3osy7j:hover .name-3_Dsmg, .wrapper-1ucjTd:hover .name-3_Dsmg,
 .theme-dark .quickMessage-1yeL4E,
 .input-1Rv96N,
 .theme-dark .headerClickable-2IVFo9, .theme-dark .headerDefault-1wrJcN,
@@ -497,6 +502,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .bar-30k2ka,
 .lookFilled-1Gx00P.colorRed-1TFJan,
 .base-PmTxvP,
+.modeSelected-1zApJ_ .name-3_Dsmg,
+.modeUnread-1zpFdA .name-3_Dsmg,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .theme-dark .friendSelected-1sa4bG,
 .item-3HknzM.da-item.item-PXvHYJ.da-item,
@@ -524,6 +531,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .tierBody-x9kBBp,
 .lookGhost-2Fn_0-.colorBrand-3pXr91,
 #bd-pub-button,
+.name-3_Dsmg,
 .bar-30k2ka:hover,
 .bd-button:hover,
 .item-3HknzM.da-item.item-PXvHYJ.da-item:hover,
