@@ -283,6 +283,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .bd-search-wrapper,
 .theme-dark .uploadModal-2ifh8j,
 .wrapper-1cBijl,
+.unread-1xRYoj,
 .container-2VW0UT.elevationHigh-1PneE4.da-container.da-elevationHigh {
     background-color: var(--Color2) !important;
 }
@@ -303,11 +304,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 .numberBadge-2s8kKX.base-PmTxvP.da-numberBadge.da-base {
     background-color: var(--Color3) !important;
-}
-/*New Unread Other Channel*/
-.unread-1xRYoj {
-    background-color: var(--Color3) !important;
-    opacity: 0.8;
 }
 
 /*Color 4*/
@@ -352,7 +348,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .row-rrHHJU.selected-1pIgLL,
 .css-181m2lf-menu,
 .activity-11LB_k,
-.unread-1xRYoj,
 .container-1r6BKw.themed-ANHk51,
 .theme-dark .inviteSettingsInviteRow-3p2O-N,
 .theme-dark .button-2CgfFz,
@@ -550,6 +545,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .css-1gnr91b-option,
 .theme-dark .row-rrHHJU.selected-1pIgLL:hover,
 .css-12o7ek3-option,
+.unread-1xRYoj:hover,
 .bd-select .bd-select-option:hover, .bd-select .bd-select-option.selected,
 .theme-dark .card-FDVird:before,
 .side-8zPYf6 .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ, .topPill-30KHOu .themed-OHr7kt.selected-3s45Ha.item-PXvHYJ,
