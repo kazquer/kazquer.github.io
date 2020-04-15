@@ -451,7 +451,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .content-2M3n_H a,
 .wrapper-3WhCwL,
 .operations-36ENbA>a {
-    color: var(--Color10);
+    color: var(--Color10) !important;
 }
 
 /*Color 11*/
