@@ -472,7 +472,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 /*Color 11*/
 .itemBase-tz5SeC.danger-2dXSTE, .itemBase-tz5SeC.danger-2dXSTE:hover,
 .lookOutlined-3sRXeN.colorRed-1TFJan,
-.item-1GzJrl.leave-1DRJfn {
+.item-1GzJrl.leave-1DRJfn,
+.isFailed-2MPmD6, .isFailed-2MPmD6 .hljs, .isFailed-2MPmD6 a, .isFailed-2MPmD6 code.inline, .theme-dark .isFailed-2MPmD6, .theme-light .isFailed-2MPmD6 {
     color: var(--Color11);   
 }
 /*Color 11_Background*/
