@@ -701,6 +701,8 @@ foreignobject {
         1% {  box-shadow:none; }
         100% { border-radius:0%;
             box-shadow:none;
+            margin-top: calc(var(--ChatImageGrowthScale) - calc(var(--ChatImageGrowthScale) * 2));
+            background-color: var(--Color2);
             padding-left: calc(var(--ChatImageGrowth) * calc(var(--ChatImageSize) + 1rem));
             width: calc(var(--ChatImageSize) + calc(var(--ChatImageGrowthScale) * var(--ChatImageGrowth)));
             height: calc(var(--ChatImageSize) + calc(var(--ChatImageGrowthScale) * var(--ChatImageGrowth))); }
