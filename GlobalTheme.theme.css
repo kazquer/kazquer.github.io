@@ -292,7 +292,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .container-2VW0UT.elevationHigh-1PneE4.da-container.da-elevationHigh,
 .expandedFolderBackground-2sPsd-,
 .systemMessage-1I9LCe,
-.theme-dark .expandedInfo-3kfShd {
+.theme-dark .expandedInfo-3kfShd,
+.theme-dark .contentWrapper-3WC1ID {
     background-color: var(--Color2) !important;
 }
 /*Color 2 _ Color*/
