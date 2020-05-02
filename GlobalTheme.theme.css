@@ -1,4 +1,3 @@
-/*Background Image*/
 .app {
     background-size: cover !important;
     background-position: center;
@@ -8,8 +7,6 @@
     background: transparent !important;
     background-image: var(--BackgroundImage) !important;
 }
-
-/*Base*/
 .theme-dark {
     --header-primary: var(--Color13);
     --header-secondary: var(--Color14);
@@ -57,8 +54,6 @@
     --deprecated-text-input-border-disabled: transparent;
     --deprecated-text-input-prefix: transparent;
 }
-
-/*Emoji Settings*/
 .emoji {
     width: var(--EmojiTextSize);
     height: var(--EmojiTextSize);
@@ -74,8 +69,6 @@
     max-height: 1.5rem;
     vertical-align: middle;
 }
-
-/*Font & Shadow*/
 a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, dd, del, dfn, dl, dt, em, fieldset, form, h1, h2, h3, h4, h5, h6, html, iframe, img, ins, kbd, label, legend, li, object, ol, p, pre, q, s, td, tfoot, th, thead, tr, tt, ul, var, samp, small, strike, strong, table, tbody,
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button,
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6,
@@ -108,8 +101,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     1px -1px 1px var(--Color5),
     -1px -1px 1px var(--Color5);
 }
-
-/*Icons*/
 .circleIconButton-jET_ig,
 .clickable-3rdHwn .icon-22AiRD,
 .button-14-BFJ,
@@ -118,7 +109,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .item-1Yvehc .hint-22uc-R,
 .emojiPicker-3m1S-j .categories-1feg4n .categoryIcon-2gYcnP,
 .bd-icon,
-.actionIcon-2Hi9ZG {
+.actionIcon-2Hi9ZG,
+.tierMarkerLabelPlusIcon-1OS7E9 {
     color: var(--Icons) !important;
     fill: var(--Icons) !important;
 }
@@ -135,20 +127,14 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     color: var(--IconsHover) !important;
     fill: var(--IconsHover) !important;
 }
-
-/*No Margin*/
 .withFrame-haYltI {
     margin: 0 !important;
 }
-
-/*No Border*/
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece,
 .divider-JfaTT5,
 #bda-qem button {
     border: 0 !important;
 }
-
-/*No Shadow*/
 .channelNotice-1-XFjC,
 .header-2o-2hj,
 .theme-dark .container-3ayLPN,
@@ -167,8 +153,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .button-2CgfFz {
     box-shadow: none !important;
 }
-
-/*Transparent*/
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-track-piece,
 .contextMenu-HLZMGh,
 .ace-monokai .ace_gutter,
@@ -199,11 +183,11 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .payment-xT17Mq,
 .theme-dark .footer-3mqk7D,
 .topSectionSpotify-1lI0-P,
-.headerSpotify-zpWxgT {
+.headerSpotify-zpWxgT,
+.tierMarkerInProgress-24LMzJ.tierMarker-5HkGJ_.da-tierMarkerInProgress.da-tierMarker.tierMarkerSelectable-3t7r2q.da-tierMarkerSelectable,
+.theme-dark .perksModal-fSYqOq {
     background: transparent !important;
 }
-
-/*Color 1*/
 .layers-3iHuyZ,
 .withFrame-haYltI,
 .markup-2BOw-j code,
@@ -233,11 +217,11 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .preview-2nSL_2,
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
 .activityPanel-28dQGo,
-.content-1-zrf2 {
+.content-1-zrf2,
+.backdropWithLayer-3_uhz4.da-backdropWithLayer,
+.theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv {
     background-color: var(--Color1) !important;
 }
-
-/*Color 2*/
 .theme-dark .keybindShortcut-1BD6Z1 span,
 .theme-dark .option-96V44q.selected-rZcOL-,
 .theme-dark .autocomplete-1vrmpx,
@@ -293,15 +277,17 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .expandedFolderBackground-2sPsd-,
 .systemMessage-1I9LCe,
 .theme-dark .expandedInfo-3kfShd,
-.theme-dark .contentWrapper-3WC1ID {
+.theme-dark .contentWrapper-3WC1ID,
+.theme-dark .tierBody-16Chc9,
+.theme-dark .barBackground-2EEiLw,
+.theme-dark .tierMarkerBackground-3q29am,
+.theme-dark .tierHeaderLocked-1s2JJz,
+.theme-dark .perk-2WeBWW {
     background-color: var(--Color2) !important;
 }
-/*Color 2 _ Color*/
 .theme-dark .keybindShortcut-1BD6Z1 {
     color: var(--Color2) !important;
 }
-
-/*Color 3*/
 .item-2hkk8m,
 .newMessagesBar-mujexs,
 .unreadPill-2HyYtt,
@@ -314,18 +300,12 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .numberBadge-2s8kKX.base-PmTxvP.da-numberBadge.da-base {
     background-color: var(--Color3) !important;
 }
-
-/*Color 4*/
 .title-3qD0b-,
 .clickable-2ap7je .header-2o-2hj,
 .searchResultMessage-2VxO12.hit-NLlWXA,
 .theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .autocompleteShadow-iiGWFU {
     box-shadow: 0 0 0.2rem 0.2rem var(--Color4) !important;
 } 
-
-/*Color 5 - Used Along Font On Top*/
-
-/*Color 6*/
 .theme-dark .row-rrHHJU.selected-1pIgLL,
 .theme-dark .footer-3mqk7D,
 .activity-11LB_k,
@@ -407,8 +387,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .item-3T2z1R {
     border-color: var(--Color6) !important;
 }
-
-/*Color 7*/
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button, .bd-detached-css-editor #bd-customcss-attach-controls button,
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6,
@@ -433,8 +411,6 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .pageButtonNext-V2kUq0, .theme-dark .pageButtonPrev-1Y-47D {
     background-color: var(--Color7) !important;
 }
-
-/*Color 8*/
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
 .standardSidebarView-3F1I7i #bd-customcss-attach-controls button:hover, .bd-detached-css-editor:hover #bd-customcss-attach-controls button:hover,
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6:hover,
@@ -461,38 +437,27 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .pageButtonNext-V2kUq0:hover, .theme-dark .pageButtonPrev-1Y-47D:hover {
     background-color: var(--Color8) !important;
 }
-
-/*Color 9*/
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb,
 .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-dark .scrollerWrap-2lJEkd .scroller-2FKFPG::-webkit-scrollbar-thumb, .theme-light .scrollerThemed-2oenus.themeDark-2cjlUp .scroller-2FKFPG::-webkit-scrollbar-thumb {
     background: var(--Color9) !important;
 }
-
-/*Color 10 - Not Enforced*/
 .content-2M3n_H a,
 .wrapper-3WhCwL,
 .operations-36ENbA>a {
     color: var(--Color10) !important;
 }
-
-/*Color 11*/
 .itemBase-tz5SeC.danger-2dXSTE, .itemBase-tz5SeC.danger-2dXSTE:hover,
 .lookOutlined-3sRXeN.colorRed-1TFJan,
 .item-1GzJrl.leave-1DRJfn,
 .isFailed-2MPmD6, .isFailed-2MPmD6 .hljs, .isFailed-2MPmD6 a, .isFailed-2MPmD6 code.inline, .theme-dark .isFailed-2MPmD6, .theme-light .isFailed-2MPmD6 {
     color: var(--Color11);   
 }
-/*Color 11_Background*/
 .lookFilled-1Gx00P.colorRed-1TFJan {
     background-color: var(--Color11); 
 }
-
-/*Color 12*/
 .compact-T3H92H .header-23xsNx .username-1A8OIy, .cozy-3raOZG .header-23xsNx .username-1A8OIy {
     color: var(--Color12);
 }
-
-/*Color 13*/
 .lookFilled-1Gx00P.colorBrand-3pXr91,
 .theme-dark .lookLink-9FtZy-.colorPrimary-3b3xI6,
 .contentRegion-3nDuYy #bd-customcss-attach-controls, #bd-customcss-detach-container #bd-customcss-attach-controls,
@@ -533,15 +498,13 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item,
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
 .standardSidebarView-3F1I7i #editor-detached button,
-.cancelButton-3hVEV6:hover, .downloadButton-23tKQp:hover {
+.cancelButton-3hVEV6:hover, .downloadButton-23tKQp:hover,
+.theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv {
     color: var(--Color13) !important;
 }
-/*Color 13_FILL*/
 .theme-dark .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g {
     fill: var(--Color13) !important;
 }
-
-/*Color 14*/
 .name-uJV0GL:active,
 .theme-dark .bodyInner-245q0L, .theme-dark .footer-1fjuF6,
 .ace-monokai .ace_gutter,
@@ -560,11 +523,10 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .cancelButton-3hVEV6, .downloadButton-23tKQp,
 .botTagInvert-18-95s,
 .botTagRegular-2HEhHi,
+.theme-dark .tierHeaderLocked-1s2JJz,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
     color: var(--Color14) !important;
 }
-
-/*Color 15*/
 .theme-dark .selectorSelected-1_M1WV, 
 .interactive:hover,
 #bda-qem button.active, #bda-qem button.active:hover,
@@ -583,19 +545,18 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
     background-color: var(--Color15) !important;
 }
-
-/*Color 16*/
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
 .bd-switch-checked,
 .checkbox-1ix_J3.flexCenter-3_1bcw.flex-1O1GKY.justifyCenter-3D2jYp.alignCenter-1dQNNs.da-checkbox.da-flexCenter.da-flex.da-justifyCenter.da-alignCenter.round-2jCFai.checked-3_4uQ9.da-checked,
 .theme-dark .checked-3_4uQ9,
 .barFill-23-gu-,
 .theme-dark .passthroughSelected-1Eq0Kl,
-.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span {
+.tierMarkerAccomplished-2MiXeg.tierMarker-5HkGJ_.da-tierMarkerAccomplished.da-tierMarker.tierMarkerSelectable-3t7r2q.da-tierMarkerSelectable,
+.tierMarkerAccomplished-2MiXeg.tierMarker-5HkGJ_.da-tierMarkerAccomplished.da-tierMarker,
+.checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
+.barForeground-3KglC8 {
     background-color: var(--Color16) !important;
 }
-
-/*Chat Image Scale*/
 .a11y-font-scaled-down .avatar-1BDn8e {
 	opacity: var(--ChatImage) !important;
     width: var(--ChatImageSize) !important;
@@ -604,17 +565,14 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     border-radius: var(--ImageEdgeCutting) !important;
     box-shadow: 0rem 0rem 1rem var(--Color4) !important;
 }
-/*Profile Image Scale*/
 div.avatar-3EQepX.da-avatar.wrapper-3t9DeA.da-wrapper {
     width: var(--ProfileImageSize) !important;
     height: var(--ProfileImageSize) !important;
 }
-/*Mask Removal For ImageEdgeCutting*/
 foreignobject {
     mask: none;
     border-radius: var(--ImageEdgeCutting) !important;
 }
-/*Message Spacing From Image*/
 .cozy-3raOZG .contents-2mQqc9,
 .container-1ov-mD {
     margin-left: calc(var(--ChatImageSize) - 3rem);
@@ -622,7 +580,6 @@ foreignobject {
 .cozyMessage-3V1Y8y.groupStart-23k01U {
     min-height: calc(var(--ChatImageSize) + 0.2rem);
 }
-
 .group-spacing-16 .divider-3_HH5L.hasContent-1_DUdQ {
     margin-top: 1.1rem !important; 
     margin-bottom: 1.1rem !important; 
@@ -633,25 +590,16 @@ foreignobject {
 .cozy-3raOZG .messageContent-2qWWxC {
     padding-top: -2rem;    
 }
-
-/*Checkbox Spacing*/
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span:after {
     margin-top: 2px;
     margin-left: 1px;
 }
-
-/*Chat Notification Remove Left*/
 .localBot-GrCgVt:before, .mentioned-xhSam7:before {
     width: 0px;
 }
-
-/*Search Result Spacing*/
 .searchResult-3pzFAB {
     margin-bottom: 1rem;
 }
-
-/*Aimations*/
-/*Mention Pulse*/
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover,
 .mentioned-xhSam7 {
     animation: 0.8s infinite alternate ease-out MentionBackground;
@@ -679,8 +627,6 @@ foreignobject {
         background-color: var(--Color3);
     }
 }
-
-/*Hover Element Pulse For Vision*/
 .searchResult-3pzFAB:hover,
 .messageGroupWrapper-o-Zw7G:hover {
     animation: 1.5s infinite ease-out Hover;
@@ -690,8 +636,6 @@ foreignobject {
         50% { background-color: rgba(50,50,120,0.3); }
         100% { }
 }
-
-/*Chat Image Scale On Hover*/
 .a11y-font-scaled-down .avatar-1BDn8e:hover {
     animation: 0.3s ease-in HoverPic;
     animation-fill-mode: forwards;
@@ -702,9 +646,9 @@ foreignobject {
         1% {  box-shadow:none; }
         100% { border-radius:0%;
             box-shadow:none;
-            margin-top: calc(var(--ChatImageGrowthScale) - calc(var(--ChatImageGrowthScale) * 2));
             background-color: var(--Color2);
             padding-left: calc(var(--ChatImageGrowth) * calc(var(--ChatImageSize) + 1rem));
+            margin-top: calc(var(--ChatImageGrowthScale) - calc(var(--ChatImageGrowthScale) * 2));
             width: calc(var(--ChatImageSize) + calc(var(--ChatImageGrowthScale) * var(--ChatImageGrowth)));
             height: calc(var(--ChatImageSize) + calc(var(--ChatImageGrowthScale) * var(--ChatImageGrowth))); }
 }
