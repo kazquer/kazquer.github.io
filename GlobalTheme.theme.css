@@ -443,7 +443,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 }
 .content-2M3n_H a,
 .wrapper-3WhCwL,
-.operations-36ENbA>a {
+.operations-36ENbA>a,
+.bd-addon-list a {
     color: var(--Color10) !important;
 }
 .itemBase-tz5SeC.danger-2dXSTE, .itemBase-tz5SeC.danger-2dXSTE:hover,
