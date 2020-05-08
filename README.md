@@ -17,4 +17,4 @@ Your are finished. You can go to themes settings and turn on the theme.
 All changes are done in *'Custom CSS'* tab code.
 
 ---
-### Changes to ['*Root.txt*'](https://github.com/kazquer/CustomizableTheme) file might happen. If you notice something not working correctly or change try checking if there are no new value added. You can find this page later by going to BTD settings '*Themes*' and clicking '*Website*' on my theme.
+### Changes to ['*Root.txt*'](https://github.com/kazquer/CustomizableTheme/blob/master/Root.txt) file might happen. If you notice something not working correctly or change try checking if there are no new value added. You can find this page later by going to BTD settings '*Themes*' and clicking '*Website*' on my theme.
