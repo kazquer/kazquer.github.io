@@ -282,7 +282,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .barBackground-2EEiLw,
 .theme-dark .tierMarkerBackground-3q29am,
 .theme-dark .tierHeaderLocked-1s2JJz,
-.theme-dark .perk-2WeBWW {
+.theme-dark .perk-2WeBWW,
+.drawerSizingWrapper-27qFHb {
     background-color: var(--Color2) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 {
@@ -341,7 +342,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .inviteSettingsInviteRow-3p2O-N,
 .theme-dark .button-2CgfFz,
 .theme-dark .container-1nZlH6,
-.theme-dark #bd-settings-sidebar .ui-tab-bar-separator {
+.theme-dark #bd-settings-sidebar .ui-tab-bar-separator,
+.navButtonActive-3RPAJy {
     border-bottom: 1px solid var(--Color6) !important;
 }
 .messageGroupWrapper-o-Zw7G,
@@ -408,7 +410,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .folderIconWrapper-226oVY.da-folderIconWrapper,
 .theme-dark .watchButton-2SbJEo,
 .standardSidebarView-3F1I7i #editor-detached button,
-.theme-dark .pageButtonNext-V2kUq0, .theme-dark .pageButtonPrev-1Y-47D {
+.theme-dark .pageButtonNext-V2kUq0, .theme-dark .pageButtonPrev-1Y-47D,
+.navButton-3Mnpqt {
     background-color: var(--Color7) !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
@@ -434,7 +437,9 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .folderIconWrapper-226oVY.da-folderIconWrapper:hover,
 .theme-dark .watchButton-2SbJEo:hover,
 .standardSidebarView-3F1I7i #editor-detached button:hover,
-.theme-dark .pageButtonNext-V2kUq0:hover, .theme-dark .pageButtonPrev-1Y-47D:hover {
+.theme-dark .pageButtonNext-V2kUq0:hover, .theme-dark .pageButtonPrev-1Y-47D:hover,
+.navButtonActive-3RPAJy:hover,
+.navButton-3Mnpqt:hover {
     background-color: var(--Color8) !important;
 }
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb,
@@ -500,7 +505,9 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse,
 .standardSidebarView-3F1I7i #editor-detached button,
 .cancelButton-3hVEV6:hover, .downloadButton-23tKQp:hover,
-.theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv {
+.theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv,
+.navButtonActive-3RPAJy,
+.navButton-3Mnpqt:hover {
     color: var(--Color13) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g {
@@ -525,7 +532,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .botTagInvert-18-95s,
 .botTagRegular-2HEhHi,
 .theme-dark .tierHeaderLocked-1s2JJz,
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover {
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,
+.navButton-3Mnpqt {
     color: var(--Color14) !important;
 }
 .theme-dark .selectorSelected-1_M1WV, 
@@ -543,7 +551,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .friendSelected-1sa4bG,
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,
-.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected {
+.theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected,
+.navButtonActive-3RPAJy {
     background-color: var(--Color15) !important;
 }
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
@@ -557,6 +566,9 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
 .barForeground-3KglC8 {
     background-color: var(--Color16) !important;
+}
+.navButtonActive-3RPAJy {
+    color: var(--Color13) !important;
 }
 .a11y-font-scaled-down .avatar-1BDn8e {
 	opacity: var(--ChatImage) !important;
