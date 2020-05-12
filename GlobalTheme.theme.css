@@ -641,12 +641,17 @@ foreignobject {
     }
 }
 .searchResult-3pzFAB:hover,
-.messageGroupWrapper-o-Zw7G:hover {
-    animation: 1.5s infinite ease-out Hover;
+.messageGroupWrapper-o-Zw7G:hover,
+.theme-dark .selectorSelected-1_M1WV,
+.theme-dark .option-96V44q.selected-rZcOL-,
+.clickable-11uBi-:hover,
+.resultFocused-3aIoYe {
+    animation: 2s infinite ease-out Hover;
+    border: solid 1px var(--Color6);
 }
 @keyframes Hover {
         0% { }
-        50% { background-color: rgba(50,50,120,0.3); }
+        50% { background-color: var(--HoverPulse)}
         100% { }
 }
 .a11y-font-scaled-down .avatar-1BDn8e:hover {
