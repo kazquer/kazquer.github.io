@@ -283,7 +283,9 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .tierMarkerBackground-3q29am,
 .theme-dark .tierHeaderLocked-1s2JJz,
 .theme-dark .perk-2WeBWW,
-.drawerSizingWrapper-27qFHb {
+.drawerSizingWrapper-27qFHb,
+.layer-v9HyYc,
+.css-n57xjs-menu {
     background-color: var(--Color2) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 {
@@ -382,7 +384,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .cardPrimaryOutline-29Ujqw,
 .input-cIJ7To.focused-1mmYsC, .input-cIJ7To:focus,
 .checkbox-3kaeSU .checkboxInner-3yjcPe .checkboxElement-1qV33p:checked+span,
-.uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx {
+.uploadModal-2ifh8j .inner-3nWsbo .channelTextAreaUpload-3t7EIx,
+.css-n57xjs-menu {
     border: 1px solid var(--Color6) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 span,
@@ -552,7 +555,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected,
-.navButtonActive-3RPAJy {
+.navButtonActive-3RPAJy,
+.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
     background-color: var(--Color15) !important;
 }
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
@@ -645,7 +649,8 @@ foreignobject {
 .theme-dark .selectorSelected-1_M1WV,
 .theme-dark .option-96V44q.selected-rZcOL-,
 .clickable-11uBi-:hover,
-.resultFocused-3aIoYe {
+.resultFocused-3aIoYe,
+.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
     animation: 2s infinite ease-out Hover;
     border: solid 1px var(--Color6);
 }
