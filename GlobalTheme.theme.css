@@ -283,9 +283,10 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .tierMarkerBackground-3q29am,
 .theme-dark .tierHeaderLocked-1s2JJz,
 .theme-dark .perk-2WeBWW,
-.drawerSizingWrapper-27qFHb,
-.layer-v9HyYc,
-.css-n57xjs-menu {
+.nav-2KnmHb,
+.emojiPicker-3PwZFl,
+.css-n57xjs-menu,
+.searchResultsWrap-3-pOjs {
     background-color: var(--Color2) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 {
@@ -309,12 +310,16 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .autocompleteShadow-iiGWFU {
     box-shadow: 0 0 0.2rem 0.2rem var(--Color4) !important;
 } 
+.searchResultMessage-30QnSN.hit-1CXhXT {
+    box-shadow: 0 0 0.5rem 0.8rem var(--Color4) !important;
+}
 .theme-dark .row-rrHHJU.selected-1pIgLL,
 .theme-dark .footer-3mqk7D,
 .activity-11LB_k,
 .theme-dark .tierBody-x9kBBp,
 .container-1giJp5,
-.activityPanel-28dQGo {
+.activityPanel-28dQGo,
+.searchResult-2N9RV4 {
     border-top: 1px solid var(--Color6) !important;
 }
 .guilds-1SWlCJ,
@@ -345,7 +350,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .button-2CgfFz,
 .theme-dark .container-1nZlH6,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-separator,
-.navButtonActive-3RPAJy {
+.navButtonActive-3RPAJy,
+.searchResult-2N9RV4 {
     border-bottom: 1px solid var(--Color6) !important;
 }
 .messageGroupWrapper-o-Zw7G,
@@ -414,7 +420,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .watchButton-2SbJEo,
 .standardSidebarView-3F1I7i #editor-detached button,
 .theme-dark .pageButtonNext-V2kUq0, .theme-dark .pageButtonPrev-1Y-47D,
-.navButton-3Mnpqt {
+.navButton-3Mnpqt,
+.jumpButton-1ol35X {
     background-color: var(--Color7) !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
@@ -442,7 +449,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .standardSidebarView-3F1I7i #editor-detached button:hover,
 .theme-dark .pageButtonNext-V2kUq0:hover, .theme-dark .pageButtonPrev-1Y-47D:hover,
 .navButtonActive-3RPAJy:hover,
-.navButton-3Mnpqt:hover {
+.navButton-3Mnpqt:hover,
+.jumpButton-1ol35X:hover {
     background-color: var(--Color8) !important;
 }
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb,
@@ -614,8 +622,13 @@ foreignobject {
 .localBot-GrCgVt:before, .mentioned-xhSam7:before {
     width: 0px;
 }
-.searchResult-3pzFAB {
+.searchResult-3pzFAB,
+.searchResult-2N9RV4 {
     margin-bottom: 1rem;
+    background-color: var(--Color1) !important;
+}
+.contentWrapper-2txmjs {
+    grid-row-gap: 0px !important;
 }
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover,
 .mentioned-xhSam7 {
@@ -644,7 +657,7 @@ foreignobject {
         background-color: var(--Color3);
     }
 }
-.searchResult-3pzFAB:hover,
+.searchResult-2N9RV4:hover,
 .messageGroupWrapper-o-Zw7G:hover,
 .theme-dark .selectorSelected-1_M1WV,
 .theme-dark .option-96V44q.selected-rZcOL-,
