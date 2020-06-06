@@ -649,6 +649,9 @@ foreignobject {
         border-color: var(--Color3);
     }
 }
+.wrapper-2qzCYF.normal-1oavYI {
+    height: 75% !important;
+}
 @keyframes MentionBorders {
     from {
         background-color: transparent;
