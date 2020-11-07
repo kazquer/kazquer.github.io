@@ -186,7 +186,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .headerSpotify-zpWxgT,
 .tierMarkerInProgress-24LMzJ.tierMarker-5HkGJ_.da-tierMarkerInProgress.da-tierMarker.tierMarkerSelectable-3t7r2q.da-tierMarkerSelectable,
 .theme-dark .perksModal-fSYqOq,
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
+.theme-dark .wrapper-1-Fsb8 {
     background: transparent !important;
 }
 .layers-3iHuyZ,
@@ -220,7 +221,10 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .activityPanel-28dQGo,
 .content-1-zrf2,
 .backdropWithLayer-3_uhz4.da-backdropWithLayer,
-.theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv {
+.theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv,
+.colorInfo-2URYW5,
+.auto-Ge5KZx::-webkit-scrollbar-track,
+.auto-Ge5KZx::-webkit-scrollbar-thumb {
     background-color: var(--Color1) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 span,
@@ -287,7 +291,12 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .nav-2KnmHb,
 .emojiPicker-3PwZFl,
 .css-n57xjs-menu,
-.searchResultsWrap-3-pOjs {
+.searchResultsWrap-3-pOjs,
+.nav-7UD0KD,
+.subscribeTooltipWrapper-32-Ce8,
+.jumpToPresentBar-G1R9s6,
+.theme-dark .footer-2gL1pp,
+.theme-dark .selected-1Tbx07 {
     background-color: var(--Color2) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 {
@@ -320,7 +329,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .tierBody-x9kBBp,
 .container-1giJp5,
 .activityPanel-28dQGo,
-.searchResult-2N9RV4 {
+.searchResult-2N9RV4,
+.colorInfo-2URYW5 {
     border-top: 1px solid var(--Color6) !important;
 }
 .guilds-1SWlCJ,
@@ -352,7 +362,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .container-1nZlH6,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-separator,
 .navButtonActive-3RPAJy,
-.searchResult-2N9RV4 {
+.searchResult-2N9RV4,
+.colorInfo-2URYW5 {
     border-bottom: 1px solid var(--Color6) !important;
 }
 .messageGroupWrapper-o-Zw7G,
@@ -628,7 +639,7 @@ foreignobject {
     margin-bottom: 1rem;
     background-color: var(--Color1) !important;
 }
-.contentWrapper-2txmjs {
+.contentWrapper-SvZHNd {
     grid-row-gap: 0px !important;
 }
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover,
@@ -650,9 +661,6 @@ foreignobject {
         border-color: var(--Color3);
     }
 }
-.wrapper-2qzCYF.normal-1oavYI {
-    height: 75% !important;
-}
 @keyframes MentionBorders {
     from {
         background-color: transparent;
@@ -661,13 +669,17 @@ foreignobject {
         background-color: var(--Color3);
     }
 }
+.wrapper-2qzCYF.normal-1oavYI {
+    height: 75% !important;
+}
 .searchResult-2N9RV4:hover,
 .messageGroupWrapper-o-Zw7G:hover,
 .theme-dark .selectorSelected-1_M1WV,
 .theme-dark .option-96V44q.selected-rZcOL-,
 .clickable-11uBi-:hover,
 .resultFocused-3aIoYe,
-.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
+.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
+.theme-dark .selected-1Tbx07 {
     animation: 2s infinite ease-out Hover;
     border: solid 1px var(--Color6);
 }
@@ -691,4 +703,3 @@ foreignobject {
             margin-top: calc(var(--ChatImageGrowthScale) - calc(var(--ChatImageGrowthScale) * 2));
             width: calc(var(--ChatImageSize) + calc(var(--ChatImageGrowthScale) * var(--ChatImageGrowth)));
             height: calc(var(--ChatImageSize) + calc(var(--ChatImageGrowthScale) * var(--ChatImageGrowth))); }
-}
