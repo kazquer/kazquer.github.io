@@ -2,6 +2,8 @@
 
 ### __Customizable Discord Theme__
 
+###Current version: 1.0.1
+
 #### How to use:
 * Set discord appearance to Dark.
 * [Install Better Discord](https://betterdiscord.net/home/).
