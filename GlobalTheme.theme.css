@@ -100,7 +100,7 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     -1px 1px 1px var(--Color5),
     1px -1px 1px var(--Color5),
     -1px -1px 1px var(--Color5);
-}
+} 
 .circleIconButton-jET_ig,
 .clickable-3rdHwn .icon-22AiRD,
 .button-14-BFJ,
@@ -187,8 +187,15 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .tierMarkerInProgress-24LMzJ.tierMarker-5HkGJ_.da-tierMarkerInProgress.da-tierMarker.tierMarkerSelectable-3t7r2q.da-tierMarkerSelectable,
 .theme-dark .perksModal-fSYqOq,
 .theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
-.theme-dark .wrapper-1-Fsb8 {
+.theme-dark .wrapper-1-Fsb8,
+.theme-dark .container-2cd8Mz,
+.mentioned-Tre-dv:before,
+.theme-dark .focused-2FU0YH,
+.theme-dark .footer-31IekZ {
     background: transparent !important;
+}
+.wordmarkWindows-1v0lYD {
+    color: transparent !important;
 }
 .layers-3iHuyZ,
 .withFrame-haYltI,
@@ -224,11 +231,11 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv,
 .colorInfo-2URYW5,
 .auto-Ge5KZx::-webkit-scrollbar-track,
-.auto-Ge5KZx::-webkit-scrollbar-thumb {
+.auto-Ge5KZx::-webkit-scrollbar-thumb,
+.appMount-2yBXZl {
     background-color: var(--Color1) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 span,
-.theme-dark .option-96V44q.selected-rZcOL-,
 .theme-dark .autocomplete-1vrmpx,
 .themeDefault-24hCdX,
 .theme-dark .defaultIndicator-3WqGFB,
@@ -296,9 +303,21 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .subscribeTooltipWrapper-32-Ce8,
 .jumpToPresentBar-G1R9s6,
 .theme-dark .footer-2gL1pp,
-.theme-dark .selected-1Tbx07 {
+.full-motion .translate-2dAEQ6.didRender-33z1u8,
+.container-3XJ8ns,
+.drawerSizingWrapper-1txdWG,
+.theme-dark .autocomplete-3NRXG8,
+.item-2LIpTv,
+.theme-dark .container-2McqkF,
+.jumpToPresentBar-1cEnH0,
+.content-3spvdd,
+.theme-dark .root-g14mjS {
     background-color: var(--Color2) !important;
 }
+.theme-dark .option-96V44q.selected-rZcOL-,
+.theme-dark .selected-1Tbx07 {
+    background-color: var(--Color2);
+}    
 .theme-dark .keybindShortcut-1BD6Z1 {
     color: var(--Color2) !important;
 }
@@ -306,7 +325,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .newMessagesBar-mujexs,
 .unreadPill-2HyYtt,
 .unreadPillCapStroke-7rkHbg,
-.iconBadge-qZ4Ksk {
+.iconBadge-qZ4Ksk,
+.newMessagesBar-265mhP {
     background-color: var(--Color3) !important;
     fill: var(--Color3) !important;
     color: var(--Color3) !important;
@@ -317,7 +337,9 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .title-3qD0b-,
 .clickable-2ap7je .header-2o-2hj,
 .searchResultMessage-2VxO12.hit-NLlWXA,
-.theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .autocompleteShadow-iiGWFU {
+.theme-dark .autocompleteArrow-Zxoy9H, .theme-dark .autocompleteShadow-iiGWFU,
+.theme-dark .footer-31IekZ,
+.theme-dark .root-g14mjS {
     box-shadow: 0 0 0.2rem 0.2rem var(--Color4) !important;
 } 
 .searchResultMessage-30QnSN.hit-1CXhXT {
@@ -337,14 +359,16 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .container-PNkimc,
 .scroller-1JbKMe,
 .btn.btn-primary,
-#bda-qem button {
+#bda-qem button,
+.privateChannels-oVe7HL {
     border-right: 1px solid var(--Color6) !important;
 }
 .members-1998pB,
 .searchResultsWrap-2DKFzt,
 .btn.btn-primary,
 .nowPlayingScroller-2XrVUt,
-#bda-qem button {
+#bda-qem button,
+.privateChannels-oVe7HL {
     border-left: 1px solid var(--Color6) !important;
 }
 .selected-1GqIat .icon-22AiRD,
@@ -407,7 +431,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
     border: 1px solid var(--Color6) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 span,
-.theme-dark .item-3T2z1R {
+.theme-dark .item-3T2z1R,
+.divider-2rZFJK {
     border-color: var(--Color6) !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91,
@@ -433,7 +458,11 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .standardSidebarView-3F1I7i #editor-detached button,
 .theme-dark .pageButtonNext-V2kUq0, .theme-dark .pageButtonPrev-1Y-47D,
 .navButton-3Mnpqt,
-.jumpButton-1ol35X {
+.jumpButton-1ol35X,
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub,
+.folderIconWrapper-1oRIZr,
+.searchBar-3TnChZ .searchBarComponent-3N7dCG,
+.searchBar-zdmu7v {
     background-color: var(--Color7) !important;
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
@@ -462,7 +491,12 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark .pageButtonNext-V2kUq0:hover, .theme-dark .pageButtonPrev-1Y-47D:hover,
 .navButtonActive-3RPAJy:hover,
 .navButton-3Mnpqt:hover,
-.jumpButton-1ol35X:hover {
+.jumpButton-1ol35X:hover,
+.wrapper-3kah-n:hover.selected-1Drb7Z:hover .childWrapper-1j_1ub:hover, .wrapper-3kah-n:hover .childWrapper-1j_1ub:hover,
+.folderIconWrapper-1oRIZr:hover,
+.circleIconButton-1VxDrg.selected-2r1Hvo,
+.searchBar-3TnChZ .searchBarComponent-3N7dCG:hover,
+.searchBar-zdmu7v:hover {
     background-color: var(--Color8) !important;
 }
 .theme-dark .scrollerThemed-2oenus.themedWithTrack-q8E3vB .scroller-2FKFPG::-webkit-scrollbar-thumb,
@@ -484,7 +518,8 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .lookFilled-1Gx00P.colorRed-1TFJan {
     background-color: var(--Color11); 
 }
-.compact-T3H92H .header-23xsNx .username-1A8OIy, .cozy-3raOZG .header-23xsNx .username-1A8OIy {
+.compact-T3H92H .header-23xsNx .username-1A8OIy, .cozy-3raOZG .header-23xsNx .username-1A8OIy,
+.username-h_Y3Us {
     color: var(--Color12);
 }
 .lookFilled-1Gx00P.colorBrand-3pXr91,
@@ -530,7 +565,10 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .cancelButton-3hVEV6:hover, .downloadButton-23tKQp:hover,
 .theme-dark .tierUnlocked-25K6Kv, .theme-light .tierUnlocked-25K6Kv,
 .navButtonActive-3RPAJy,
-.navButton-3Mnpqt:hover {
+.navButton-3Mnpqt:hover,
+.wrapper-3kah-n.selected-1Drb7Z .childWrapper-1j_1ub, .wrapper-3kah-n:hover .childWrapper-1j_1ub,
+.colorDefault-CDqZdO.focused-3qFvc8,
+.circleIconButton-1VxDrg {
     color: var(--Color13) !important;
 }
 .theme-dark .keybindShortcut-1BD6Z1 span .bindArrow-2X3Aom g {
@@ -576,8 +614,16 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item:hover,
 .theme-dark #bd-settings-sidebar .ui-tab-bar-item.selected,
 .navButtonActive-3RPAJy,
-.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O) {
+.emojiItem-277VFM.emojiItemSelected-2Lg50V {
     background-color: var(--Color15) !important;
+}
+.colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
+.colorDefault-CDqZdO.focused-3qFvc8,
+.emojiItem-277VFM.emojiItemSelected-2Lg50V,
+.theme-dark .selected-3H3-R,
+.result-u66Ywh[aria-selected=true],
+.theme-dark .selected-3H3-RC {
+    background-color: var(--Color15);
 }
 .themeDefault-24hCdX.valueChecked-m-4IJZ,
 .bd-switch-checked,
@@ -591,15 +637,22 @@ a, abbr, acronym, address, applet, big, blockquote, body, caption, cite, code, d
 .barForeground-3KglC8 {
     background-color: var(--Color16) !important;
 }
+.selected-1-Z6gm .layout-1qmrhw,
+.quickswitcher-pKcM9U,
+.container-YkUktl, .container-YkUktl .avatar-1EWyVD,
+.wrapper-3Hk9OB,
+.activityPanel-9icbyU {
+    background-color: var(--Color17) !important;
+}
 .navButtonActive-3RPAJy {
     color: var(--Color13) !important;
 }
-.a11y-font-scaled-down .avatar-1BDn8e {
+.a11y-font-scaled-down .avatar-2e8lTP {
 	opacity: var(--ChatImage) !important;
     width: var(--ChatImageSize) !important;
     height: var(--ChatImageSize) !important;
     background-size: var(--ChatImageSize) var(--ChatImageSize);
-    border-radius: var(--ImageEdgeCutting) !important;
+    border-radius: var(--ImageEdgeCutting);
     box-shadow: 0rem 0rem 1rem var(--Color4) !important;
 }
 div.avatar-3EQepX.da-avatar.wrapper-3t9DeA.da-wrapper {
@@ -617,6 +670,7 @@ foreignobject {
 .cozyMessage-3V1Y8y.groupStart-23k01U {
     min-height: calc(var(--ChatImageSize) + 0.2rem);
 }
+
 .group-spacing-16 .divider-3_HH5L.hasContent-1_DUdQ {
     margin-top: 1.1rem !important; 
     margin-bottom: 1.1rem !important; 
@@ -643,10 +697,12 @@ foreignobject {
     grid-row-gap: 0px !important;
 }
 .message-2qnXI6.mentioned-xhSam7.selected-2P5D_Z, .mouse-mode.full-motion .mentioned-xhSam7:hover,
-.mentioned-xhSam7 {
+.mentioned-xhSam7,
+.mentioned-Tre-dv {
+
     animation: 0.8s infinite alternate ease-out MentionBackground;
-    border-right: 2px solid rgba(0,0,0,0) !important;
-    border-left: 2px solid rgba(0,0,0,0) !important;
+    border-right: 2px solid rgba(0,0,0,0);
+    border-left: 2px solid rgba(0,0,0,0);
 }
 .mentioned-xhSam7:before {
     animation: 0.8s infinite alternate ease-out MentionBorders;
@@ -679,27 +735,35 @@ foreignobject {
 .clickable-11uBi-:hover,
 .resultFocused-3aIoYe,
 .colorDefault-2K3EoJ.focused-3afm-j, .colorDefault-2K3EoJ:hover:not(.hideInteraction-1iHO1O),
-.theme-dark .selected-1Tbx07 {
-    animation: 2s infinite ease-out Hover;
-    border: solid 1px var(--Color6);
+.theme-dark .selected-1Tbx07,
+.option-96V44q:hover,
+.peopleListItem-2nzedh:hover,
+.focused-dKLoQt, .item-2J2GlB:hover,
+.colorDefault-2K3EoJ.focused-3afm-j:hover,
+.colorDefault-CDqZdO.focused-3qFvc8,
+.emojiItem-277VFM.emojiItemSelected-2Lg50V,
+.theme-dark .selected-3H3-RC,
+.theme-dark .option-2KkUJO:hover,
+.result-u66Ywh[aria-selected=true] {
+    animation: 2s infinite ease-out Hover !important;
 }
 @keyframes Hover {
         0% { }
-        50% { background-color: var(--HoverPulse)}
+        50% { background-color: var(--HoverPulse);}
         100% { }
 }
-.a11y-font-scaled-down .avatar-1BDn8e:hover {
+.avatar-2e8lTP:hover {
     animation: 0.3s ease-in HoverPic;
     animation-fill-mode: forwards;
 }
 @keyframes HoverPic {
-        0% { width: var(--ChatImageSize);
-            height: var(--ChatImageSize);}
+        0% { transform: scale(1)}
         1% {  box-shadow:none; }
         100% { border-radius:0%;
             box-shadow:none;
             background-color: var(--Color2);
-            padding-left: calc(var(--ChatImageGrowth) * calc(var(--ChatImageSize) + 1rem));
-            margin-top: calc(var(--ChatImageGrowthScale) - calc(var(--ChatImageGrowthScale) * 2));
-            width: calc(var(--ChatImageSize) + calc(var(--ChatImageGrowthScale) * var(--ChatImageGrowth)));
-            height: calc(var(--ChatImageSize) + calc(var(--ChatImageGrowthScale) * var(--ChatImageGrowth))); }
+            margin-left: calc(1rem * var(--ChatImageGrowth));
+            margin-top: calc(-1rem * var(--ChatImageGrowth));
+            transform: scale(var(--ChatImageGrowth));
+        }
+}
