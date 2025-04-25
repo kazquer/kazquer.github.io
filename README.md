@@ -1,7 +1,7 @@
 # kazquer.github.io
 
 ### __Customizable Discord Theme__
-#### Current version: 2.3.0
+#### Current version: 2.3.1
 
 #### How to use:
 * Set discord appearance to Dark.
